@@ -56,6 +56,10 @@ body {
   transform: scale(0) rotate(20deg);
 }
 
+.no-js .wave {
+  transform: scale(1);
+}
+
 h3 {
   font-weight: 100;
 }
