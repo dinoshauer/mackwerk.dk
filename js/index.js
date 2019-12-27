@@ -3,10 +3,10 @@ noJs.classList.remove('no-js');
 
 document.addEventListener('DOMContentLoaded', function () {
   const waveEl = document.querySelector('.wave');
-  setPopIn(waveEl);
+  animate(waveEl);
 });
 
-function setPopIn (el) {
+function animate (el) {
   setTimeout(() => {
     el.style.animationName = 'pop-in';
     el.style.animationDuration = '.5s';
